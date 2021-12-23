@@ -9,29 +9,29 @@
      font-size: 40px;
      color: yellow;
      background-color: rgb(214, 204, 199);
-}    
+     text-align:left;
+     position: relative;
+     cursor: pointer;
+}
 .aqui:hover { 
   background-color: #fdfbfd; 
   color: rgb(128, 240, 23);
-  transition: 0.5s;
-  opacity: 0.7;
+  transition: 4.0s;
+  opacity: 2.0;
  }
 
   .home {
     font-family: 'Franklin Gothic Medium', sans-serif;
     font-size: 40px;
+    justify-content: space-around;
   }
   .tarja {
     flex-grow: 1;
     display: flex;
     flex-direction: row;
-    justify-content:center;
     justify-content: space-around;
     background-color:yellow; 
   }
- 
-  
-
  .luana {
   background-color: yellow;
   font-weight: bold;
@@ -39,10 +39,48 @@
 
  .imgContainer {
   flex-wrap: wrap;
-  height: 280px;
-  width: 300px;
-  margin-left: 20px;
+  height: 250px;
+  width: 250px;
+  margin: 9px;
+  border-radius: 80px;
+ }
+  .imgContainer:hover{
+    -moz-transform: scale(1.5);
+	  -webkit-transform: scale(1.5);
+	  transform: scale(1.5);
+    border-radius: 80px;
 }
- @media only screen and(min-width:700px) {
- 
+main{
+  background-color: rgb(214, 204, 199);
+  height: 100%;
+  width: 100%;
+  padding: 10px;
+  position: relative;
+  overflow: hidden;
+}
+footer{
+  font-size: 30px;
+  position:relative;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  margin: 0;
+}
+@media screen { 
+  
+  /* start of screen rules. */ 
+  
+  /* Generic pane rules */
+  body { margin: 0 }
+  .row, .col { overflow: hidden; position: absolute; }
+  .row { left: 0; right: 0; }
+  .col { top: 0; bottom: 0; }
+  .scroll-x { overflow-x: auto; }
+  .scroll-y { overflow-y: auto; }
+
+  .header.row { height: 75px; top: 0; }
+  .body.row { top: 75px; bottom: 50px; }
+  .footer.row { height: 50px; bottom: 0; }
+  
+  /* end of screen rules. */ 
 }
