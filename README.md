@@ -1,5 +1,5 @@
 # AdoteAqui 
-[Logo](img/logo.png)
+[Logo](logo.png)
 ## Pagina Criada com HTML E CSS.
 ## Idealizando uma Sigle Page de adoção de animais.
 
