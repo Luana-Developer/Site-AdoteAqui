@@ -1,5 +1,5 @@
 # AdoteAqui 
-![Logo](https://github.com/Luana-Developer/AdoteAqui/blob/main/img/logo.png)
+![Logo](img/logo.png)
 
 ## Pagina Criada com HTML E CSS.
 ## Idealizando uma Sigle Page de adoção de animais.
