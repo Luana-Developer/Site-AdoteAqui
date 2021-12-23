@@ -1,4 +1,4 @@
-# AdoteAqui ![logo.png]
+# AdoteAqui ![./logo.png]
 ## Pagina Criada com HTML E CSS.
 ## Idealizando uma Sigle Page de adoção de animais.
 
